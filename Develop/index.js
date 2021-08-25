@@ -112,7 +112,7 @@ this read me has 3 different license that can be used. Mozilla, MIT and Apache.
 ///////////////////////////////////////////////////
 console.log(template);
 
-fs.writeFile("./output/readme.md", template, (err, data) => {
+fs.writeFile("ReadmeGenerator/output", template, (err, data) => {
     console.log("read me created")
 })
 
